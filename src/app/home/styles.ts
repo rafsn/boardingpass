@@ -34,9 +34,36 @@ export const styles = StyleSheet.create({
         paddingBottom: 24
     },
     content: {
-
+        padding: 20
     },
     flight: {
+        width: "100%",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginBottom: 52
+    },
+    duration: {
+        alignItems: "center"
+    },
+    hours: {
+        color: colors.gray[800],
+        fontSize: 14,
+        fontFamily: fontFamily.regular
+    },
+    label: {
+        color: colors.gray[400],
+        fontSize: 12,
+        textTransform: "uppercase",
+        fontFamily: fontFamily.regular
+    },
+    name: {
+        color: colors.black,
+        fontSize: 24,
+        fontFamily: fontFamily.bold
+    },
+    details: {
 
     }
+
 });
