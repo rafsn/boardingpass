@@ -6,6 +6,7 @@ import Ionics from "@expo/vector-icons/Ionicons"
 import {Flight} from "@/components/flight";
 import {colors} from "@/styles/color";
 import React from "react";
+import {Info} from "@/components/info";
 
 export function Home() {
     return (
@@ -32,10 +33,10 @@ export function Home() {
                     </View>
 
                     <Text style={styles.label}>Passageiro</Text>
-                    <Text style={styles.name}>Rafael Santos</Text>
+                    <Text style={styles.name}>Rafael H Santos</Text>
 
                     <View style={styles.details}>
-
+                        <Info label="Data" value="17 de Nov."/>
                     </View>
                 </View>
 
